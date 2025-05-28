@@ -13,13 +13,10 @@ class EmissionController extends Controller
     //
 
 
-
-
-
 public function emissions(){
 $data['title']='emissions';
 $data['response']=[
-'emissions'=>EmissionSectorResource::collection(EmissionSectorModel::all()),
+'emissions'=>EmissionSectorResource::collection(EmissionSectorModel::orderBy('name','ASC')->get()),
 ];
 return Inertia::render('Emissions',$data);
 

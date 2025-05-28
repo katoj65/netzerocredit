@@ -5,12 +5,12 @@
 
 <div class="nk-block">
 <div class="row g-gs">
-<div class="col-12 col-md-12 pb-3">
+<div class="col-12 col-md-12 pb-1">
 <h5>Emission Sectors</h5>
 </div>
 
 <div class="col-12 col-md-4" v-for="(n,key) in emissions" :key="key">
-<Link>
+<Link :href="route('emissions.'+n.route)">
 <div class="card featured-card h-100">
 <div class="card-inner">
 <div class="loan-icon w-20">
@@ -76,7 +76,7 @@ import { reactive,computed } from 'vue';
 import { Link } from '@inertiajs/vue3';
 
 const props=defineProps({
-response:Array
+response:Object
 });
 const emissions=props.response.emissions.data;
 

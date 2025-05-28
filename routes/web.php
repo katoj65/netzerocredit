@@ -14,6 +14,7 @@ use App\Http\Controllers\Emission\EmissionController;
 $routes=[
 'verifier',
 'carbon-market',
+'emissions',
 
 ];
 
@@ -38,9 +39,9 @@ Route::get('/register',[HomeController::class,'register'])->name('register');
 
 
 Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
+'auth:sanctum',
+config('jetstream.auth_session'),
+'verified',
 ])->group(function () {
 
 
