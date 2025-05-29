@@ -9,6 +9,7 @@ use App\Models\FarmModel;
 use App\Http\Resources\FarmListResource;
 use App\Models\EmissionSectorModel;
 use App\Http\Resources\EmissionSectorProfileResource;
+use App\Models\CarbonCreditActivityModel;
 
 
 class AgricultureController extends Controller
@@ -18,7 +19,7 @@ class AgricultureController extends Controller
 
 
 
-    
+
 
 public function agriculture(Request $request){
 $sector=new EmissionSectorProfileResource(EmissionSectorModel::select('id','name')->where('name',$request->segment(2))->first());
@@ -31,7 +32,9 @@ $data['response']=[
 ->orderBy('farm.created_at','DESC')
 ->limit(10)
 ->get()),
-
+'carbon_credit_activity'=>CarbonCreditActivityModel::where('emission_sector_id',$sector->id)
+->orderBy('name','ASC')
+->get(),
 
 
 ];

@@ -1,8 +1,5 @@
 <template>
 <app-layout>
-
-
-
 <div class="nk-block-head nk-block-head-sm">
 <div class="nk-block-between">
 <div class="nk-block-head-content">
@@ -150,7 +147,7 @@ Contact
             <div class="card-title-group">
                 <div class="card-title">
                     <h6 class="title">
-                        Carbon Credit Issued
+                        Carbon Credit Activities
                     </h6>
                 </div>
                 <div class="card-tools me-n1 mt-n1">
@@ -169,38 +166,11 @@ Contact
         </div>
         <div class="card-inner pt-0">
             <ul class="my-n2">
-                <li class="align-center justify-between py-1 gx-1 border-bottom border-0 border-dashed">
-                    <div class="lead-text">United States</div>
+                <li class="align-center justify-between py-1 gx-1 border-bottom border-0 border-dashed" v-for="(c,key) in carbon_activity" :key="key">
+                    <div class=" text-capitalize">{{c.name}} </div>
                     <div class="sub-text">14,356</div>
                 </li><!-- li -->
-                <li class="align-center justify-between py-1 gx-1 border-bottom border-0 border-dashed">
-                    <div class="lead-text">Ireland</div>
-                    <div class="sub-text">11,203</div>
-                </li><!-- li -->
-                <li class="align-center justify-between py-1 gx-1 border-bottom border-0 border-dashed">
-                    <div class="lead-text">United Kingdom</div>
-                    <div class="sub-text">10,653</div>
-                </li><!-- li -->
-                <li class="align-center justify-between py-1 gx-1 border-bottom border-0 border-dashed">
-                    <div class="lead-text">Canada</div>
-                    <div class="sub-text">7,215</div>
-                </li><!-- li -->
-                <li class="align-center justify-between py-1 gx-1 border-bottom border-0 border-dashed">
-                    <div class="lead-text">Australia</div>
-                    <div class="sub-text">6,653</div>
-                </li><!-- li -->
-                <li class="align-center justify-between py-1 gx-1 border-bottom border-0 border-dashed">
-                    <div class="lead-text">Japan</div>
-                    <div class="sub-text">3,945</div>
-                </li><!-- li -->
-                <li class="align-center justify-between py-1 gx-1 border-bottom border-0 border-dashed">
-                    <div class="lead-text">China</div>
-                    <div class="sub-text">2,945</div>
-                </li><!-- li -->
-                <li class="align-center justify-between py-1 gx-1">
-                    <div class="lead-text">France</div>
-                    <div class="sub-text">954</div>
-                </li><!-- li -->
+               <!-- li -->
             </ul>
         </div>
     </div>
@@ -449,6 +419,7 @@ response:Object,
 
 const farm=computed(()=>props.response.farm.data);
 const profile=computed(()=>props.response.sector.data);
+const carbon_activity=computed(()=>props.response.carbon_credit_activity);
 
 
 

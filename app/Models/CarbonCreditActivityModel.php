@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class CarbonCreditActivityModel extends Model
 {
     //
-    protected $table = 'carbon_credit_activities';
+    protected $table = 'carbon_credit_activity';
     protected $fillable = [
         'emission_sector_id',
         'name',
