@@ -6,9 +6,9 @@
 <div class="nk-block-head nk-block-head-sm">
 <div class="nk-block-between">
 <div class="nk-block-head-content">
-<h5 class="fw-bold text-capitalize">{{ profile.name }}</h5>
+<h4 class="fw-bold text-capitalize">{{ profile.name }}</h4>
 <div class="nk-block-des text-soft">
-<p>Welcome to DashLite Dashboard Template.</p>
+<p>Reliable emission data from the agriculture sector.</p>
 </div>
 </div><!-- .nk-block-head-content -->
 <div class="nk-block-head-content">
@@ -30,14 +30,14 @@
 
 <div class="tab-pane fade active show" id="payment-billing-tab-pane" role="tabpanel">
 <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
-<h5 class="mb-0">
+<h6 class="mb-0">
 Sector Emitters
-</h5>
+</h6>
 <ul class="d-flex gx-4">
 <li>
     <div class="btn-group" aria-label="Basic example">
         <Link  type="button" class="btn btn-outline-secondary" style="border-radius: 4px 0px 0px 4px;">View More</Link>
-        <Link :href="route('verifier.create_farmer')" class="btn btn-dark" style="border-radius: 0px 4px 4px 0px;">New Farmer</Link>
+        <Link :href="route('verifier.create_farmer')" class="btn btn-dark" style="border-radius: 0px 4px 4px 0px;">New Farm</Link>
 
       </div>
 </li>
@@ -80,37 +80,44 @@ Sector Emitters
 <thead class="table-light">
 <tr>
 <th class="tb-col">
-<div class="fs-13px text-base">Subscription</div>
+<div class="fs-13px text-base">Farm ID</div>
 </th>
 <th class="tb-col tb-col-md">
-<div class="fs-13px text-base">Payment Date</div>
+<div class="fs-13px text-base">Location</div>
 </th>
 <th class="tb-col tb-col-sm">
-<div class="fs-13px text-base">Total</div>
+<div class="fs-13px text-base">Type</div>
 </th>
 <th class="tb-col tb-col-sm">
 <div class="fs-13px text-base">Status</div>
 </th>
-<th class="tb-col"></th>
+<th class="tb-col">
+Contact
+</th>
 </tr>
 </thead>
 <tbody>
 <tr v-for="(r,key) in farm" :key="key">
 <td class="tb-col">
-<div class="caption-text">Starter - 12 Months <div class="d-sm-none dot bg-success"></div>
+<div class="caption-text text-capitalize">
+{{ r.farm_name }} <div class="d-sm-none dot bg-success"></div>
 </div>
 </td>
 <td class="tb-col tb-col-md">
-<div class="fs-6 text-base d-inline-flex flex-wrap gap gx-2"><span>Feb 15,2023 </span> <span>02:31 PM</span></div>
+<div class="fs-6 text-base d-inline-flex flex-wrap gap gx-2"><span class="text-capitalize">{{ r.district }} </span> <span></span></div>
 </td>
 <td class="tb-col tb-col-sm">
-<div class="fs-6 text-base">$23.00</div>
+<div class="fs-6 text-base text-capitalize">
+{{ r.farm_type }}
+</div>
 </td>
 <td class="tb-col tb-col-sm">
-<div class="badge bg-success-dim text-success rounded-pill">Paid</div>
+<div class="badge bg-success-dim text-success rounded-pill text-capitalize">{{ r.status }} </div>
 </td>
-<td class="tb-col tb-col-end">
-<a href="#" class="link">Get Invoice</a>
+<td class="tb-col tb-col-start">
+<a href="#" class="link">
+{{ r.tel }}
+</a>
 </td>
 </tr>
 

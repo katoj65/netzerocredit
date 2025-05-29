@@ -19,11 +19,13 @@
 
 data:{
 
-labels: ['VueJs', 'EmberJs', 'ReactJs', 'AngularJs'],
+labels: ['Fosil Fuels', 'Fertilizers', 'Burning crop residues', 'Poor land management'],
 datasets: [
 {
-backgroundColor: ['#41B883', '#E46651', '#00D8FF', '#DD1B16'],
-data: [40, 20, 80, 10]
+backgroundColor: ['#41B883', '#6e2c00', '#00D8FF', '#DD1B16'],
+data: [10, 20, 10, 60],
+borderColor: 'white',
+
 }
 ]
 
