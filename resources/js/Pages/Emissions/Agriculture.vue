@@ -6,9 +6,7 @@
 <div class="nk-block-head nk-block-head-sm">
 <div class="nk-block-between">
 <div class="nk-block-head-content">
-<h5 class="fw-bold text-capitalize">
-{{ profile.name }}
-</h5>
+<h5 class="fw-bold text-capitalize">{{ profile.name }}</h5>
 <div class="nk-block-des text-soft">
 <p>Welcome to DashLite Dashboard Template.</p>
 </div>
