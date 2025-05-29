@@ -25,91 +25,9 @@
 
 
 
-
-
 <div class="card p-0 m-0 border-0">
-
-
-
 <div class="card-inner p-0">
 <div class="tab-content mt-0">
-<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel">
-<div class="nk-data data-list">
-<div class="data-head">
-<h6 class="overline-title">Basics</h6>
-</div>
-<div class="data-item" data-bs-toggle="modal" data-bs-target="#profile-edit">
-<div class="data-col">
-<span class="data-label">Full Name</span>
-<span class="data-value">Abu Bin Ishtiyak</span>
-</div>
-<div class="data-col data-col-end"><span class="data-more"><em class="icon ni ni-forward-ios"></em></span></div>
-</div><!-- data-item -->
-<div class="data-item" data-bs-toggle="modal" data-bs-target="#profile-edit">
-<div class="data-col">
-<span class="data-label">Display Name</span>
-<span class="data-value">Ishtiyak</span>
-</div>
-<div class="data-col data-col-end"><span class="data-more"><em class="icon ni ni-forward-ios"></em></span></div>
-</div><!-- data-item -->
-<div class="data-item">
-<div class="data-col">
-<span class="data-label">Email</span>
-<span class="data-value">info@softnio.com</span>
-</div>
-<div class="data-col data-col-end"><span class="data-more disable"><em class="icon ni ni-lock-alt"></em></span></div>
-</div><!-- data-item -->
-<div class="data-item" data-bs-toggle="modal" data-bs-target="#profile-edit">
-<div class="data-col">
-<span class="data-label">Phone Number</span>
-<span class="data-value text-soft">Not add yet</span>
-</div>
-<div class="data-col data-col-end"><span class="data-more"><em class="icon ni ni-forward-ios"></em></span></div>
-</div><!-- data-item -->
-<div class="data-item" data-bs-toggle="modal" data-bs-target="#profile-edit">
-<div class="data-col">
-<span class="data-label">Date of Birth</span>
-<span class="data-value">29 Feb, 1986</span>
-</div>
-<div class="data-col data-col-end"><span class="data-more"><em class="icon ni ni-forward-ios"></em></span></div>
-</div><!-- data-item -->
-<div class="data-item" data-bs-toggle="modal" data-bs-target="#profile-edit" data-tab-target="#address">
-<div class="data-col">
-<span class="data-label">Address</span>
-<span class="data-value">2337 Kildeer Drive,<br>Kentucky, Canada</span>
-</div>
-<div class="data-col data-col-end"><span class="data-more"><em class="icon ni ni-forward-ios"></em></span></div>
-</div><!-- data-item -->
-</div><!-- data-list -->
-<div class="nk-data data-list">
-<div class="data-head">
-<h6 class="overline-title">Preferences</h6>
-</div>
-<div class="data-item">
-<div class="data-col">
-<span class="data-label">Language</span>
-<span class="data-value">English (United State)</span>
-</div>
-<div class="data-col data-col-end"><a href="#" class="link link-primary">Change Language</a></div>
-</div><!-- data-item -->
-<div class="data-item">
-<div class="data-col">
-<span class="data-label">Date Format</span>
-<span class="data-value">M d, YYYY</span>
-</div>
-<div class="data-col data-col-end"><a href="#" class="link link-primary">Change</a></div>
-</div><!-- data-item -->
-<div class="data-item">
-<div class="data-col">
-<span class="data-label">Timezone</span>
-<span class="data-value">Bangladesh (GMT +6)</span>
-</div>
-<div class="data-col data-col-end"><a href="#" class="link link-primary">Change</a></div>
-</div><!-- data-item -->
-</div><!-- data-list -->
-</div><!-- .tab-pane -->
-
-
 
 
 <div class="tab-pane fade active show" id="payment-billing-tab-pane" role="tabpanel">
@@ -151,10 +69,13 @@ Sector Emitters
 </div>
 
 
+<div class="pt-1 pb-1 mb-3 mt-4">
+    <h5>Registered Farms</h5>
+    </div>
+<div class="row">
+<div class="col-12 col-md-8">
 
-<div class="mt-4 pt-1 pb-1 mb-3">
-<h5>Billing History</h5>
-</div>
+
 <div class="card">
 <table class="table table-middle mb-0">
 <thead class="table-light">
@@ -197,9 +118,79 @@ Sector Emitters
 </tbody>
 </table>
 </div>
+
+
+
+</div>
+<div class="col-12 col-md-4">
+
+    <div class="card h-100">
+        <div class="card-inner h-100 stretch flex-column">
+            <div class="card-title-group">
+                <div class="card-title card-title-sm">
+                    <h6 class="title">By Device</h6>
+                </div>
+                <div class="card-tools">
+                    <div class="drodown">
+                        <a href="#" class="dropdown-toggle dropdown-indicator btn btn-sm btn-outline-light btn-white" data-bs-toggle="dropdown">30 Days</a>
+                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-xs">
+                            <ul class="link-list-opt no-bdr">
+                                <li><a href="#"><span>7 Days</span></a></li>
+                                <li><a href="#"><span>15 Days</span></a></li>
+                                <li><a href="#"><span>30 Days</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="device-status my-auto">
+                <div class="device-status-ck">
+                    <canvas class="analytics-doughnut" id="deviceStatusData" width="618" height="320" style="display: block; box-sizing: border-box; height: 160px; width: 309px;"></canvas>
+                </div>
+                <div class="device-status-group">
+                    <div class="device-status-data">
+                        <em data-color="#798bff" class="icon ni ni-monitor" style="color: rgb(121, 139, 255);"></em>
+                        <div class="title">Desktop</div>
+                        <div class="amount">84.5%</div>
+                        <div class="change up text-danger"><em class="icon ni ni-arrow-long-up"></em>4.5%</div>
+                    </div>
+                    <div class="device-status-data">
+                        <em data-color="#baaeff" class="icon ni ni-mobile" style="color: rgb(186, 174, 255);"></em>
+                        <div class="title">Mobile</div>
+                        <div class="amount">14.2%</div>
+                        <div class="change up text-danger"><em class="icon ni ni-arrow-long-up"></em>133.2%</div>
+                    </div>
+                    <div class="device-status-data">
+                        <em data-color="#7de1f8" class="icon ni ni-tablet" style="color: rgb(125, 225, 248);"></em>
+                        <div class="title">Tablet</div>
+                        <div class="amount">1.3%</div>
+                        <div class="change up text-danger"><em class="icon ni ni-arrow-long-up"></em>25.3%</div>
+                    </div>
+                </div><!-- .device-status-group -->
+            </div><!-- .device-status -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
 </div><!-- .tab-pane -->
 </div><!-- .tab-content -->
 </div>
+
+
+
+
 
 
 
