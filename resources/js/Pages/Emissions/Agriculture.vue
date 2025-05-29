@@ -35,10 +35,11 @@ Sector Emitters
 </h5>
 <ul class="d-flex gx-4">
 <li>
-<a href="#cancelSubscriptionModal" class="btn btn-secondary">View more</a>
-</li>
-<li>
-<Link :href="route('verifier.create_farmer')" class="btn btn-outline-secondary">New Farm</Link>
+    <div class="btn-group" aria-label="Basic example">
+        <Link  type="button" class="btn btn-outline-secondary" style="border-radius: 4px 0px 0px 4px;">View More</Link>
+        <Link :href="route('verifier.create_farmer')" class="btn btn-dark" style="border-radius: 0px 4px 4px 0px;">New Farmer</Link>
+
+      </div>
 </li>
 </ul>
 
@@ -58,7 +59,7 @@ Sector Emitters
 <div class="card">
 <div class="card-inner">
 <div class="text-base mb-1 text-capitalize">{{ a.activity }} </div>
-<h5>25Mt CO2e</h5>
+<div class="text-muted">25Mt CO2e</div>
 </div>
 </div>
 </div>
@@ -121,12 +122,13 @@ Sector Emitters
 
 </div>
 <div class="col-12 col-md-4">
+<div class="card">
+<div class="card-inner">
+ <Pie/>
 
- <Bar/>
 
-
-
-
+</div>
+</div>
 
 
 </div>
@@ -171,7 +173,8 @@ Sector Emitters
 import AppLayout from '@/Layouts/AppLayout.vue';
 import { Link } from '@inertiajs/vue3';
 import { computed } from 'vue';
-import Bar from '@/Charts/Bar.vue';
+import Pie from '@/Charts/Pie.vue';
+import { defineProps } from 'vue';
 
 
 const props=defineProps({

@@ -652,9 +652,9 @@
 
 
 <li class="d-none d-sm-block me-n1">
-<!-- <search-bar class="mr-3"></search-bar> -->
+
 <Link :href="route('dashboard')" class="pr-2" :active="route().current('dashboard')">
-<em class="icon ni ni-home-fill" style="font-size:25px;color:#aeb6bf;"></em>
+<em class="icon ni ni-home-fill text-dark" style="font-size:25px;"></em>
 </Link>
 </li>
 
@@ -662,9 +662,9 @@
 
 
     <li class="d-none d-sm-block me-n1">
-    <!-- <search-bar class="mr-3"></search-bar> -->
+
     <Link :href="route('search')" class="pr-2" :active="route().current('search')">
-    <em class="icon ni ni-search" style="font-size:25px;color:#aeb6bf;"></em>
+    <em class="icon ni ni-search text-dark" style="font-size:25px;"></em>
 
     </Link>
     </li>
@@ -673,9 +673,9 @@
 
 
 <li class="d-none d-sm-block me-n1">
-<!-- <search-bar class="mr-3"></search-bar> -->
+
 <Link :href="route('emissions')" class="pr-2" :active="route().current('notification')">
-<em class="icon ni ni-grid" style="font-size:25px;color:#aeb6bf;"></em>
+<em class="icon ni ni-grid text-dark" style="font-size:25px;"></em>
 </Link>
 </li>
 
@@ -686,7 +686,7 @@
 
 
 <li class="d-none d-sm-block me-n1 pr-3">
-    <Link :href="route('notification')" class="pr-2" :active="route().current('notification')"> <em class="icon ni ni-bell-fill" style="font-size:25px;color:#aeb6bf;"></em></Link>
+    <Link :href="route('notification')" class="pr-2" :active="route().current('notification')"> <em class="icon ni ni-bell-fill text-dark" style="font-size:25px;"></em></Link>
 </li>
 
 <li class="dropdown user-dropdown">
