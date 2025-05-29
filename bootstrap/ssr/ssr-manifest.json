@@ -3,6 +3,12 @@
     "/build/assets/_plugin-vue_export-helper-1tPrXgE0.js"
   ],
   "node_modules/laravel-vite-plugin/inertia-helpers/index.js": [],
+  "resources/js/Charts/Bar.vue": [
+    "/build/assets/Agriculture-D8iLKf_h.js"
+  ],
+  "resources/js/Charts/Bar.vue?vue&type=script&lang.ts": [
+    "/build/assets/Agriculture-D8iLKf_h.js"
+  ],
   "resources/js/Components/ActionMessage.vue": [
     "/build/assets/ActionMessage-CMRC4Q_0.js"
   ],
@@ -159,7 +165,7 @@
     "/build/assets/Emissions-CKx-oREK.js"
   ],
   "resources/js/Pages/Emissions/Agriculture.vue": [
-    "/build/assets/Agriculture-SuhP_e4I.js"
+    "/build/assets/Agriculture-D8iLKf_h.js"
   ],
   "resources/js/Pages/Emissions/Energy.vue": [
     "/build/assets/Energy-BaQf7CCi.js"

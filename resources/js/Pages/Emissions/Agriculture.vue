@@ -23,9 +23,9 @@
 
 
 
-<div class="card p-0 m-0 border-0">
-<div class="card-inner p-0">
-<div class="tab-content mt-0">
+<div class="card border-0">
+<div class="card-inner">
+<div class="tab-content">
 
 
 <div class="tab-pane fade active show" id="payment-billing-tab-pane" role="tabpanel">

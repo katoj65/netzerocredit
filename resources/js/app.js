@@ -1,5 +1,10 @@
 import './bootstrap';
-import '../css/app.css';
+import './resources/app.css';
+import './resources/css/dashlite.css';
+import './resources/css/theme.css';
+import './resources/css/dashlite.min.css';
+import './resources/css/dashlite.rtl.css';
+
 
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
@@ -8,12 +13,6 @@ import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
-
-import '/resources/css/dashlite.css';
-import '/resources/css/theme.css';
-import '/resources/css/dashlite.min.css';
-import '/resources/css/dashlite.rtl.css';
-import '/resources/css/dashlite.rtl.min.css';
 
 
 

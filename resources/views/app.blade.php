@@ -24,9 +24,23 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 <!-- Scripts -->
 
+<link rel="stylesheet" href="http://localhost/netzerocredit/public/css/dashlite.css">
+{{-- <link rel="stylesheet" href="http://localhost/netzerocredit/public/css/theme.css">
+<link rel="stylesheet" href="http://localhost/netzerocredit/public/css/dashlite.min.css">
+<link rel="stylesheet" href="http://localhost/netzerocredit/public/css/dashlite.rtl.css">
+<link rel="stylesheet" href="http://localhost/netzerocredit/public/css/dashlite.rtl.min.css"> --}}
+
+<link rel="stylesheet" href="http://localhost/netzerocredit/resources/css/app.css">
+<link rel="stylesheet" href="http://localhost/netzerocredit/resources/css/resources.rtl.min.css">
+<link rel="stylesheet" href="http://localhost/netzerocredit/resources/css/dashlite.css">
+<link rel="stylesheet" href="http://localhost/netzerocredit/resources/css/dashlite.min.css">
+<link rel="stylesheet" href="http://localhost/netzerocredit/resources/css/theme.css">
+
+
+
 </head>
 @routes
-@vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue","public/css/dashlite.css?ver=3.2.4","public/css/theme.css?ver=3.2.4","public/css/libs/fontawesome-icons.css"])
+@vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
 @inertiaHead
 <style>
 div,p,h1,h2,h3,h4,h5,h6,span,li,input,button,select{
