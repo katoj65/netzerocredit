@@ -9,11 +9,8 @@
   "resources/js/Components/ActionSection.vue": [
     "/build/assets/DialogModal-Bohj6Rjv.js"
   ],
-  "resources/js/Components/ApplicationLogo.vue": [
-    "/build/assets/Dashboard-CkF1xTlr.js"
-  ],
-  "resources/js/Components/ApplicationMark.vue": [
-    "/build/assets/AppLayout-DV5-tnZU.js"
+  "resources/js/Components/AuthUser.vue": [
+    "/build/assets/CreateFarmerProfile-C2xO39ms.js"
   ],
   "resources/js/Components/AuthenticationCard.vue": [
     "/build/assets/AuthenticationCard-C9mEk27i.js"
@@ -21,8 +18,13 @@
   "resources/js/Components/AuthenticationCardLogo.vue": [
     "/build/assets/AuthenticationCardLogo-CCMjJmtd.js"
   ],
-  "resources/js/Components/Banner.vue": [
-    "/build/assets/AppLayout-DV5-tnZU.js"
+  "resources/js/Components/CardHeader.vue": [
+    "/build/assets/CardHeader-CKiwtpDp.js",
+    "/build/assets/CardHeader-tn0RQdqM.css"
+  ],
+  "resources/js/Components/CardHeader.vue?vue&type=style&index=0&scoped=04346248&lang.css": [
+    "/build/assets/CardHeader-CKiwtpDp.js",
+    "/build/assets/CardHeader-tn0RQdqM.css"
   ],
   "resources/js/Components/Checkbox.vue": [
     "/build/assets/Checkbox-BBcrr1ex.js"
@@ -39,11 +41,13 @@
   "resources/js/Components/DialogModal.vue": [
     "/build/assets/DialogModal-Bohj6Rjv.js"
   ],
-  "resources/js/Components/Dropdown.vue": [
-    "/build/assets/AppLayout-DV5-tnZU.js"
+  "resources/js/Components/ErrorMessageInline.vue": [
+    "/build/assets/ErrorMessageInline-DdL__BKJ.js",
+    "/build/assets/ErrorMessageInline-CVUjcAc-.css"
   ],
-  "resources/js/Components/DropdownLink.vue": [
-    "/build/assets/AppLayout-DV5-tnZU.js"
+  "resources/js/Components/ErrorMessageInline.vue?vue&type=style&index=0&scoped=97007512&lang.css": [
+    "/build/assets/ErrorMessageInline-DdL__BKJ.js",
+    "/build/assets/ErrorMessageInline-CVUjcAc-.css"
   ],
   "resources/js/Components/FormSection.vue": [
     "/build/assets/FormSection-ybvcGyGW.js"
@@ -57,14 +61,16 @@
   "resources/js/Components/Modal.vue": [
     "/build/assets/DialogModal-Bohj6Rjv.js"
   ],
-  "resources/js/Components/NavLink.vue": [
-    "/build/assets/AppLayout-DV5-tnZU.js"
-  ],
   "resources/js/Components/PrimaryButton.vue": [
     "/build/assets/PrimaryButton-CvZeXs1Y.js"
   ],
-  "resources/js/Components/ResponsiveNavLink.vue": [
-    "/build/assets/AppLayout-DV5-tnZU.js"
+  "resources/js/Components/SearchBar.vue": [
+    "/build/assets/AppLayout-C_aPQEHY.js",
+    "/build/assets/AppLayout-js3Ra8IG.css"
+  ],
+  "resources/js/Components/SearchBar.vue?vue&type=style&index=0&scoped=7af6ef34&lang.css": [
+    "/build/assets/AppLayout-C_aPQEHY.js",
+    "/build/assets/AppLayout-js3Ra8IG.css"
   ],
   "resources/js/Components/SecondaryButton.vue": [
     "/build/assets/SecondaryButton-CuwfkeiC.js"
@@ -75,17 +81,47 @@
   "resources/js/Components/SectionTitle.vue": [
     "/build/assets/SectionTitle-CZQPTZ98.js"
   ],
+  "resources/js/Components/SignoutButton.vue": [
+    "/build/assets/AppLayout-C_aPQEHY.js",
+    "/build/assets/AppLayout-js3Ra8IG.css"
+  ],
+  "resources/js/Components/SubmitButton.vue": [
+    "/build/assets/ErrorMessageInline-DdL__BKJ.js",
+    "/build/assets/ErrorMessageInline-CVUjcAc-.css"
+  ],
   "resources/js/Components/TextInput.vue": [
     "/build/assets/TextInput-B0hF2b1y.js"
   ],
-  "resources/js/Components/Welcome.vue": [
-    "/build/assets/Dashboard-CkF1xTlr.js"
+  "resources/js/Components/UserRoleModal.vue": [
+    "/build/assets/AppLayout-C_aPQEHY.js",
+    "/build/assets/AppLayout-js3Ra8IG.css"
   ],
   "resources/js/Layouts/AppLayout.vue": [
-    "/build/assets/AppLayout-DV5-tnZU.js"
+    "/build/assets/AppLayout-C_aPQEHY.js",
+    "/build/assets/AppLayout-js3Ra8IG.css"
+  ],
+  "resources/js/Layouts/AppLayout.vue?vue&type=style&index=0&lang.css": [
+    "/build/assets/AppLayout-C_aPQEHY.js",
+    "/build/assets/AppLayout-js3Ra8IG.css"
+  ],
+  "resources/js/Layouts/HomeLayout.vue": [
+    "/build/assets/Index-CkcJs83z.js",
+    "/build/assets/Index-C4ynoGNQ.css"
+  ],
+  "resources/js/Layouts/HomeLayout.vue?vue&type=style&index=0&scoped=ca55f55d&lang.css": [
+    "/build/assets/Index-CkcJs83z.js",
+    "/build/assets/Index-C4ynoGNQ.css"
+  ],
+  "resources/js/Layouts/HomeLayout2.vue": [
+    "/build/assets/HomeLayout2-EHqoeNz9.js",
+    "/build/assets/HomeLayout2-CqtlUTU0.css"
+  ],
+  "resources/js/Layouts/HomeLayout2.vue?vue&type=style&index=0&lang.css": [
+    "/build/assets/HomeLayout2-EHqoeNz9.js",
+    "/build/assets/HomeLayout2-CqtlUTU0.css"
   ],
   "resources/js/Pages/API/Index.vue": [
-    "/build/assets/Index-DPsxcgWW.js"
+    "/build/assets/Index-Bc7HFNnX.js"
   ],
   "resources/js/Pages/API/Partials/ApiTokenManager.vue": [
     "/build/assets/ApiTokenManager-BykzfZ1-.js"
@@ -112,7 +148,41 @@
     "/build/assets/VerifyEmail-WIhatmnG.js"
   ],
   "resources/js/Pages/Dashboard.vue": [
-    "/build/assets/Dashboard-CkF1xTlr.js"
+    "/build/assets/Dashboard-CWCJgJj2.js",
+    "/build/assets/Dashboard-BEC-FORn.css"
+  ],
+  "resources/js/Pages/Dashboard.vue?vue&type=style&index=0&scoped=c3456dd3&lang.css": [
+    "/build/assets/Dashboard-CWCJgJj2.js",
+    "/build/assets/Dashboard-BEC-FORn.css"
+  ],
+  "resources/js/Pages/Emissions.vue": [
+    "/build/assets/Emissions-CKx-oREK.js"
+  ],
+  "resources/js/Pages/Emissions/Agriculture.vue": [
+    "/build/assets/Agriculture-SuhP_e4I.js"
+  ],
+  "resources/js/Pages/Emissions/Energy.vue": [
+    "/build/assets/Energy-BaQf7CCi.js"
+  ],
+  "resources/js/Pages/Index.vue": [
+    "/build/assets/Index-CkcJs83z.js",
+    "/build/assets/Index-C4ynoGNQ.css"
+  ],
+  "resources/js/Pages/Index.vue?vue&type=style&index=0&scoped=6bcdd77d&lang.css": [
+    "/build/assets/Index-CkcJs83z.js",
+    "/build/assets/Index-C4ynoGNQ.css"
+  ],
+  "resources/js/Pages/Login.vue": [
+    "/build/assets/Login-Wrhcs83A.js"
+  ],
+  "resources/js/Pages/Login2.vue": [
+    "/build/assets/Login2-dEYgJClR.js"
+  ],
+  "resources/js/Pages/Market/CarbonMarkets.vue": [
+    "/build/assets/CarbonMarkets-DWLQf9FD.js"
+  ],
+  "resources/js/Pages/Notification.vue": [
+    "/build/assets/Notification-DZMgVIIp.js"
   ],
   "resources/js/Pages/PrivacyPolicy.vue": [
     "/build/assets/PrivacyPolicy-CmTJjOlw.js"
@@ -133,10 +203,30 @@
     "/build/assets/UpdateProfileInformationForm-Byhh0wzL.js"
   ],
   "resources/js/Pages/Profile/Show.vue": [
-    "/build/assets/Show-B5raPRC2.js"
+    "/build/assets/Show-CdWjZTUf.js"
+  ],
+  "resources/js/Pages/Register.vue": [
+    "/build/assets/Register-Bucr5Yv_.js"
+  ],
+  "resources/js/Pages/Search/Search.vue": [
+    "/build/assets/Search-Da4pVE-r.js"
   ],
   "resources/js/Pages/TermsOfService.vue": [
     "/build/assets/TermsOfService-BQmtGz8y.js"
+  ],
+  "resources/js/Pages/Verifier/CreateFarmerAccount.vue": [
+    "/build/assets/CreateFarmerAccount-CdC8B3XM.js"
+  ],
+  "resources/js/Pages/Verifier/CreateFarmerProfile.vue": [
+    "/build/assets/CreateFarmerProfile-C2xO39ms.js"
+  ],
+  "resources/js/Pages/Verifier/Farm.vue": [
+    "/build/assets/Farm-CKgjwT3k.js",
+    "/build/assets/Farm-C5y5mHGq.css"
+  ],
+  "resources/js/Pages/Verifier/Farm.vue?vue&type=style&index=0&scoped=cec7c528&lang.css": [
+    "/build/assets/Farm-CKgjwT3k.js",
+    "/build/assets/Farm-C5y5mHGq.css"
   ],
   "resources/js/Pages/Welcome.vue": [
     "/build/assets/Welcome-fw4BC0B8.js"

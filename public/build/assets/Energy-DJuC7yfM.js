@@ -1,0 +1,1 @@
+import{_ as t}from"./AppLayout-DNV41DZf.js";import{c as e,o as r,w as a,g as s}from"./app-DyrLR_rG.js";import"./ErrorMessageInline-CHft_vI2.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";const f={__name:"Energy",setup(m){return(n,o)=>(r(),e(t,null,{default:a(()=>o[0]||(o[0]=[s(" some information goes ")])),_:1}))}};export{f as default};

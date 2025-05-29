@@ -6,9 +6,7 @@
 <div class="nk-block-head nk-block-head-sm">
 <div class="nk-block-between">
 <div class="nk-block-head-content">
-<h5 class="fw-bold text-capitalize">
-{{ profile.name }}
-</h5>
+<h5 class="fw-bold text-capitalize">{{ profile.name }}</h5>
 <div class="nk-block-des text-soft">
 <p>Welcome to DashLite Dashboard Template.</p>
 </div>
@@ -124,54 +122,7 @@ Sector Emitters
 </div>
 <div class="col-12 col-md-4">
 
-    <div class="card h-100">
-        <div class="card-inner h-100 stretch flex-column">
-            <div class="card-title-group">
-                <div class="card-title card-title-sm">
-                    <h6 class="title">By Device</h6>
-                </div>
-                <div class="card-tools">
-                    <div class="drodown">
-                        <a href="#" class="dropdown-toggle dropdown-indicator btn btn-sm btn-outline-light btn-white" data-bs-toggle="dropdown">30 Days</a>
-                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-xs">
-                            <ul class="link-list-opt no-bdr">
-                                <li><a href="#"><span>7 Days</span></a></li>
-                                <li><a href="#"><span>15 Days</span></a></li>
-                                <li><a href="#"><span>30 Days</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="device-status my-auto">
-                <div class="device-status-ck">
-                    <canvas class="analytics-doughnut" id="deviceStatusData" width="618" height="320" style="display: block; box-sizing: border-box; height: 160px; width: 309px;"></canvas>
-                </div>
-                <div class="device-status-group">
-                    <div class="device-status-data">
-                        <em data-color="#798bff" class="icon ni ni-monitor" style="color: rgb(121, 139, 255);"></em>
-                        <div class="title">Desktop</div>
-                        <div class="amount">84.5%</div>
-                        <div class="change up text-danger"><em class="icon ni ni-arrow-long-up"></em>4.5%</div>
-                    </div>
-                    <div class="device-status-data">
-                        <em data-color="#baaeff" class="icon ni ni-mobile" style="color: rgb(186, 174, 255);"></em>
-                        <div class="title">Mobile</div>
-                        <div class="amount">14.2%</div>
-                        <div class="change up text-danger"><em class="icon ni ni-arrow-long-up"></em>133.2%</div>
-                    </div>
-                    <div class="device-status-data">
-                        <em data-color="#7de1f8" class="icon ni ni-tablet" style="color: rgb(125, 225, 248);"></em>
-                        <div class="title">Tablet</div>
-                        <div class="amount">1.3%</div>
-                        <div class="change up text-danger"><em class="icon ni ni-arrow-long-up"></em>25.3%</div>
-                    </div>
-                </div><!-- .device-status-group -->
-            </div><!-- .device-status -->
-        </div>
-    </div>
-
-
+ <Bar/>
 
 
 
@@ -220,6 +171,7 @@ Sector Emitters
 import AppLayout from '@/Layouts/AppLayout.vue';
 import { Link } from '@inertiajs/vue3';
 import { computed } from 'vue';
+import Bar from '@/Charts/Bar.vue';
 
 
 const props=defineProps({

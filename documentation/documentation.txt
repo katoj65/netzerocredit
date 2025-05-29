@@ -1,0 +1,1 @@
+Installed vue-chartjs chart.js - 29.may.2025
