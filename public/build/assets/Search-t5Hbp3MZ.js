@@ -1,0 +1,1 @@
+import{_ as r}from"./AppLayout-DeCPYj7_.js";import{c as e,o as a,w as o,g as s}from"./app-BQSodHML.js";import"./ErrorMessageInline-C40a4jYY.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";const f={__name:"Search",setup(_){return(c,t)=>(a(),e(r,null,{default:o(()=>t[0]||(t[0]=[s(" Search... ")])),_:1}))}};export{f as default};
