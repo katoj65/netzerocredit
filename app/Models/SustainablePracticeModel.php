@@ -9,4 +9,5 @@ class SustainablePracticeModel extends Model
     //
     protected $table='sustainable_practice';
     protected $fillable=['name','description'];
+    protected $hidden=['created_at','updated_at'];
 }

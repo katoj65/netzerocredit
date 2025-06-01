@@ -10,6 +10,7 @@ use App\Http\Resources\FarmListResource;
 use App\Models\EmissionSectorModel;
 use App\Http\Resources\EmissionSectorProfileResource;
 use App\Models\CarbonCreditActivityModel;
+use App\Models\SustainablePracticeModel;
 
 
 class AgricultureController extends Controller
@@ -35,6 +36,12 @@ $data['response']=[
 'carbon_credit_activity'=>CarbonCreditActivityModel::where('emission_sector_id',$sector->id)
 ->orderBy('name','ASC')
 ->get(),
+'practice'=>SustainablePracticeModel::where('emission_sector_id',$sector->id)
+->orderBy('name','ASC')
+->limit(7)
+->get(),
+
+
 
 
 ];
